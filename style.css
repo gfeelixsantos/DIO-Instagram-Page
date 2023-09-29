@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    margin-top: 15px;
+}
+
+#instagram {
+    width: 55%;
+}
+
+.login-container {
+    width: 350px;
+    height: 360px;
+    border: 1px solid #dbdbdb
+}
+
+#login-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+    border: .5px solid #fafafa;
+    background-color: #fafafa;
+    border: .2px solid #dbdbdb;
+    padding: 5px;
+    align-self: center;
+}
+
+button {
+    margin-top: 5px;
+    width: 250px;
+    height: 30px;
+    background-color: #4CB5F9;
+    color: #fff;
+    border: none;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: .2s;
+    background-color: #2479b3;
+}
+
+
+
+#login-facebook {
+    margin-top: 50px;
+    align-self: center;
+    color: #1977F3;
+    height: 40px;
+}
+
+#facebook {
+    width: 5%;
+}
+
+h6 {
+    font-weight: normal;
+    color: #1977F3;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 350px;
+    height: 60px;
+    border: 1px solid #dbdbdb
+}
+
+h5 {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #0095F6;
+    font-weight: bold;
+}
+
+#app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 350px;
+
+}
+
+.apps {
+    width: 40%;
+    cursor: pointer;
+}
+
+.google {
+    margin-top: 2px;
+}
